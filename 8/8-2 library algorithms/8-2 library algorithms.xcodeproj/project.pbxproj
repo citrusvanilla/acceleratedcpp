@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC79AE871F2BF7F900C04C5E /* grade.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC79AE851F2BF7F900C04C5E /* grade.cpp */; };
-		FCC3E21F1F23EB1D00B5F433 /* analysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCC3E21E1F23EB1D00B5F433 /* analysis.cpp */; };
+		FCAD69881F2FABA800C53246 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCAD69871F2FABA800C53246 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		FCC3E2191F23EB1D00B5F433 /* CopyFiles */ = {
+		FCAD69821F2FABA800C53246 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FC79AE851F2BF7F900C04C5E /* grade.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = grade.cpp; sourceTree = "<group>"; };
-		FC79AE861F2BF7F900C04C5E /* grade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grade.h; sourceTree = "<group>"; };
-		FCC3E21B1F23EB1D00B5F433 /* 6-6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6-6"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCC3E21E1F23EB1D00B5F433 /* analysis.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = analysis.cpp; sourceTree = "<group>"; };
+		FCAD69841F2FABA800C53246 /* 8-2 library algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "8-2 library algorithms"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAD69871F2FABA800C53246 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FCC3E2181F23EB1D00B5F433 /* Frameworks */ = {
+		FCAD69811F2FABA800C53246 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,98 +38,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FCC3E2121F23EB1D00B5F433 = {
+		FCAD697B1F2FABA800C53246 = {
 			isa = PBXGroup;
 			children = (
-				FCC3E21D1F23EB1D00B5F433 /* 6-6 */,
-				FCC3E21C1F23EB1D00B5F433 /* Products */,
+				FCAD69861F2FABA800C53246 /* 8-2 library algorithms */,
+				FCAD69851F2FABA800C53246 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FCC3E21C1F23EB1D00B5F433 /* Products */ = {
+		FCAD69851F2FABA800C53246 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FCC3E21B1F23EB1D00B5F433 /* 6-6 */,
+				FCAD69841F2FABA800C53246 /* 8-2 library algorithms */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FCC3E21D1F23EB1D00B5F433 /* 6-6 */ = {
+		FCAD69861F2FABA800C53246 /* 8-2 library algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				FCC3E21E1F23EB1D00B5F433 /* analysis.cpp */,
-				FC79AE851F2BF7F900C04C5E /* grade.cpp */,
-				FC79AE861F2BF7F900C04C5E /* grade.h */,
+				FCAD69871F2FABA800C53246 /* main.cpp */,
 			);
-			path = "6-6";
+			path = "8-2 library algorithms";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FCC3E21A1F23EB1D00B5F433 /* 6-6 */ = {
+		FCAD69831F2FABA800C53246 /* 8-2 library algorithms */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCC3E2221F23EB1D00B5F433 /* Build configuration list for PBXNativeTarget "6-6" */;
+			buildConfigurationList = FCAD698B1F2FABA800C53246 /* Build configuration list for PBXNativeTarget "8-2 library algorithms" */;
 			buildPhases = (
-				FCC3E2171F23EB1D00B5F433 /* Sources */,
-				FCC3E2181F23EB1D00B5F433 /* Frameworks */,
-				FCC3E2191F23EB1D00B5F433 /* CopyFiles */,
+				FCAD69801F2FABA800C53246 /* Sources */,
+				FCAD69811F2FABA800C53246 /* Frameworks */,
+				FCAD69821F2FABA800C53246 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "6-6";
-			productName = "6-6";
-			productReference = FCC3E21B1F23EB1D00B5F433 /* 6-6 */;
+			name = "8-2 library algorithms";
+			productName = "8-2 library algorithms";
+			productReference = FCAD69841F2FABA800C53246 /* 8-2 library algorithms */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FCC3E2131F23EB1D00B5F433 /* Project object */ = {
+		FCAD697C1F2FABA800C53246 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "justin fung";
 				TargetAttributes = {
-					FCC3E21A1F23EB1D00B5F433 = {
+					FCAD69831F2FABA800C53246 = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = FCC3E2161F23EB1D00B5F433 /* Build configuration list for PBXProject "6-6" */;
+			buildConfigurationList = FCAD697F1F2FABA800C53246 /* Build configuration list for PBXProject "8-2 library algorithms" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = FCC3E2121F23EB1D00B5F433;
-			productRefGroup = FCC3E21C1F23EB1D00B5F433 /* Products */;
+			mainGroup = FCAD697B1F2FABA800C53246;
+			productRefGroup = FCAD69851F2FABA800C53246 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FCC3E21A1F23EB1D00B5F433 /* 6-6 */,
+				FCAD69831F2FABA800C53246 /* 8-2 library algorithms */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FCC3E2171F23EB1D00B5F433 /* Sources */ = {
+		FCAD69801F2FABA800C53246 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCC3E21F1F23EB1D00B5F433 /* analysis.cpp in Sources */,
-				FC79AE871F2BF7F900C04C5E /* grade.cpp in Sources */,
+				FCAD69881F2FABA800C53246 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FCC3E2201F23EB1D00B5F433 /* Debug */ = {
+		FCAD69891F2FABA800C53246 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -179,7 +173,7 @@
 			};
 			name = Debug;
 		};
-		FCC3E2211F23EB1D00B5F433 /* Release */ = {
+		FCAD698A1F2FABA800C53246 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -219,14 +213,14 @@
 			};
 			name = Release;
 		};
-		FCC3E2231F23EB1D00B5F433 /* Debug */ = {
+		FCAD698C1F2FABA800C53246 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		FCC3E2241F23EB1D00B5F433 /* Release */ = {
+		FCAD698D1F2FABA800C53246 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -236,25 +230,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FCC3E2161F23EB1D00B5F433 /* Build configuration list for PBXProject "6-6" */ = {
+		FCAD697F1F2FABA800C53246 /* Build configuration list for PBXProject "8-2 library algorithms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FCC3E2201F23EB1D00B5F433 /* Debug */,
-				FCC3E2211F23EB1D00B5F433 /* Release */,
+				FCAD69891F2FABA800C53246 /* Debug */,
+				FCAD698A1F2FABA800C53246 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FCC3E2221F23EB1D00B5F433 /* Build configuration list for PBXNativeTarget "6-6" */ = {
+		FCAD698B1F2FABA800C53246 /* Build configuration list for PBXNativeTarget "8-2 library algorithms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FCC3E2231F23EB1D00B5F433 /* Debug */,
-				FCC3E2241F23EB1D00B5F433 /* Release */,
+				FCAD698C1F2FABA800C53246 /* Debug */,
+				FCAD698D1F2FABA800C53246 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FCC3E2131F23EB1D00B5F433 /* Project object */;
+	rootObject = FCAD697C1F2FABA800C53246 /* Project object */;
 }
