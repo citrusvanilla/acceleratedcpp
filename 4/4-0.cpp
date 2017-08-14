@@ -30,7 +30,7 @@ int main() {
 		double final_grade = grade(midterm, final, homework);
 		streamsize prec = cout.precision();
 		cout << "Your final grade is " << setprecision(3)
-				<< final_grade << setprecision(prec) << endl;
+			 << final_grade << setprecision(prec) << endl;
 	} catch (domain_error) {
 		cout << endl << "You must enter your grades. "
 						"Please try again." << endl;
